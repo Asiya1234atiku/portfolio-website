@@ -1,0 +1,56 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #e6f0ff;
+  color: #003366;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #0059b3;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+.profile-pic {
+  width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 10px auto;
+}
+
+.project-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background: #cce0ff;
+  padding: 15px;
+  border-radius: 10px;
+  width: 45%;
+}
+
+footer {
+  background-color: #0059b3;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
